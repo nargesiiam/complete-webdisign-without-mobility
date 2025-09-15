@@ -1,0 +1,467 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+ font-family: "PP Right Serif Mono Fine",serif;
+
+}
+
+header {
+    width: 100%;
+    height: 575px;
+    background: linear-gradient(to right, #352b2b, #1b2e1d);
+}
+
+header>section {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+header>section>div {
+    width: 32%;
+}
+
+section>div>nav {
+    overflow: hidden;
+    position: fixed;
+    background-color: white;
+    width: 32%;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    border-radius: 2px;
+
+}
+
+div>h4 {
+    color: white;
+    padding-top: 50px;
+}
+
+section>div>nav #pictur {
+    margin-left: 10px;
+}
+
+section>div>nav #menu {
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+section>div>nav #pic1 {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+}
+
+#shutun hr {
+    width: 200%;
+    margin-top: 5%;
+}
+
+.sidebar {
+    width: 2px;
+
+}
+
+#shorttext {
+    position: relative;
+    display: inline-flex;
+    height: 50px;
+    margin-top: 10px;
+
+}
+
+#paragaf2 {
+    position: fixed;
+    width: 300px;
+    color: black;
+    background-color: white;
+    border-radius: 2px;
+    height: 45px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+#paragaf3 {
+    height: 45px;
+    margin-left: 300px;
+    width: 150px;
+    position: fixed;
+    color: white;
+    background-color: rgb(24, 61, 32);
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 2px;
+
+}
+
+#paragaf1 {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-top: 70px;
+    font-size: small;
+}
+
+#text {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+#text>div {
+    width: 50%;
+}
+
+#txt {
+    margin-left: 10px;
+    height: 100px;
+    width: 95%;
+}
+
+#text p {
+    font-size: 325%;
+    color: white;
+
+}
+
+#born {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+#born>div {
+    width: 32%;
+    margin-top: 60px;
+}
+
+#born img {
+    margin-left: 30px;
+}
+
+#born>div span {
+    font-size: 25px;
+}
+
+#pborn {
+    font-size: 380%;
+
+}
+
+#shutun {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+#shutun>div {
+    width: 32%;
+}
+
+#shutun>div>p {
+    font-size: 120%;
+    line-height: 30px;
+
+}
+
+.pargraf5 {
+    margin-top: 25px;
+}
+
+.paragraf4 {
+    margin-top: 15%;
+}
+
+#stan {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+
+
+}
+
+#stan hr {
+    width: 200%;
+    margin-top: 5%;
+
+}
+
+#stan>div {
+    width: 32%;
+}
+
+#stan>div>p {
+    font-size: 120%;
+    line-height: 30px;
+
+}
+
+.img2 {
+    margin-left: 25%;
+}
+
+#line {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+
+#line hr {
+    width: 80%;
+}
+
+#street {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    height: 900px;
+}
+
+#sectionicon {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    gap: 50px;
+}
+
+#streetdiv {
+    width: 40%;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-left: 150px;
+
+}
+
+.icons p {
+    display: block;
+}
+
+.icons img {
+    background-color: #f9f9f9;
+
+}
+
+#picc1 {
+    padding: 20px;
+
+}
+
+#picstan {
+    margin-top: 50px;
+}
+
+#sectionicon>div>h2 {
+    margin-right: 650px;
+
+}
+
+video {
+    width: 250px;
+    margin-left: 50px;
+}
+
+#videodiv {
+    width: 25%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#video {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+
+}
+
+#textvideo {
+    width: 35%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#textvideo p {
+    font-size: 350%;
+    margin-top: 50px;
+}
+
+form {
+    background-color: #F3F3F3;
+    width: 170%;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+#lablefirs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+form>input {
+    border: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #F3F3F3;
+    margin-left: 20px;
+}
+
+form>div {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+form>div>button {
+
+    padding: 5px 30px;
+}
+
+.newac:hover {
+    background-color: #f9f9f9;
+}
+
+
+.hrform {
+    width: 90%;
+    color: rgb(207, 203, 203);
+    margin-bottom: 20px;
+}
+
+#submitt {
+    background-color: #74814D;
+    margin-top: 10px;
+    width: 80px;
+}
+
+footer {
+    width: 100%;
+    height: 500px;
+    background-color: #6C5B42;
+}
+
+footer>section {
+
+    height: 340px;
+    display: flex;
+    flex-direction: row;
+}
+
+#foter1 {
+    width: 45%;
+    text-align: center;
+
+}
+
+#foter1 p {
+    padding: 20px;
+    margin-top: 60px;
+}
+
+#foter1 h2 {
+    padding: 20px;
+    margin-top: 60px;
+}
+
+#foter1 h3 {
+    padding: 10px;
+    margin-top:60px;
+}
+
+
+#footer2 {
+    width: 25%;
+    background-color: white;
+
+    height: 120%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#footer2 h2 {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#footer2 p {
+    padding: 15px;
+}
+
+#footer3 {
+    width: 25%;
+    background-color: white;
+    height: 120%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#footer3 h2{
+  padding: 10px;
+   margin-top: 10px;
+}
+#footer3 h3 {
+   padding: 10px;
+   margin-top: 100px;
+}
+footer hr{
+    width: 330px;
+    color: rgb(224, 219, 219);
+}
+#footer3>p{
+        padding: 15px;
+        font-size: 15px;
+}
+
+@media(max-width:690px)
+{
+    header{
+        width: 100%;
+        display: block;
+        font-size: larger;
+    }
+    section>div>nav{
+width: 100%;
+    }
+    #paragaf1 {
+        position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-top: 70px;
+    font-size: small;
+}
+
+
+}
